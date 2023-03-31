@@ -494,6 +494,13 @@ nav .navbar_container .navbar_container_menu .navbar_container_menu_burger .navb
   }
 }
 @media screen and (max-width: 1233px) {
+  .contact .contact_container .contact_container_input {
+    flex-direction: column;
+  }
+  .contact .contact_container .contact_container_input .contact_container_input_text {
+    flex-direction: column;
+  }
+
   .footer {
     flex-direction: column;
   }

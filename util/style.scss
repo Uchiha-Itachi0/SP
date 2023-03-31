@@ -596,6 +596,16 @@ nav {
 }
 
 @media screen and (max-width: 1233px){
+  .contact{
+    .contact_container{
+      .contact_container_input{
+        flex-direction: column;
+        .contact_container_input_text{
+          flex-direction: column;
+        }
+      }
+    }
+  }
   .footer{
     flex-direction: column;
     .footer_container{
